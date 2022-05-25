@@ -28,9 +28,11 @@ const HomeScreen = () => {
                         ' Software Engineer.',
                     ]}
                     multiTextDelay={1000}
+                    multiTextLoop={true}
                     typeSpeed={30}
                 />
-            </div>    
+            </div>
+            <hr />    
         </div>
     )
 }
