@@ -1,5 +1,10 @@
 import React from "react";
 import TypeWriterEffect from 'react-typewriter-effect';
+import Button from 'react-bootstrap/Button';
+// import resume from '../../../src/michael-starkman-resume.pdf';
+// import { Document, Page, pdfjs } from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js${pdfjs.version}/pdf.worker.js`
+
 import './HomeScreen.css'
 
 const HomeScreen = () => {
@@ -32,6 +37,10 @@ const HomeScreen = () => {
                     typeSpeed={30}
                 />
             </div>
+            <br />
+           
+            
+            
             <hr />    
         </div>
     )

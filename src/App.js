@@ -4,6 +4,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import SocialIcons from './Components/SocialIcons/SocialIcons';
 import Skills from './Components/Skills/Skills';
+import PortFooterBar from './Components/PortFooterBar/PortFooterBar'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +19,7 @@ function App() {
       <AboutMe></AboutMe>
       <SocialIcons></SocialIcons>
       <Skills></Skills>
-
+      <PortFooterBar></PortFooterBar>
     </div>
   );
 }
