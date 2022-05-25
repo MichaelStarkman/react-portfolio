@@ -9,7 +9,8 @@ const PortNavBar = () => {
     return (
         <>
             <div className="NavBar">
-                <Navbar bg="light" expand="lg">
+                <Navbar 
+                bg="light" expand="lg" fixed="top">
                     <Container>
                         <Navbar.Brand href="#home">Michael Starkman</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
