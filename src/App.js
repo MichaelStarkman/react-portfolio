@@ -4,7 +4,9 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import SocialIcons from './Components/SocialIcons/SocialIcons';
 import Skills from './Components/Skills/Skills';
-import ContactMe from './Components/ContactMe/ContactMe';
+// import ContactMe from './Components/ContactMe/ContactMe';
+// import ReactHookForm from './Components/ContactForm/ContactForm';
+import ContactForm from './Components/ContactForm/ContactForm';
 import PortFooterBar from './Components/PortFooterBar/PortFooterBar'
 
 import './App.css';
@@ -20,7 +22,9 @@ function App() {
       <AboutMe></AboutMe>
       <SocialIcons></SocialIcons>
       <Skills></Skills>
-      <ContactMe></ContactMe>
+      {/* <ContactMe></ContactMe>
+      <ReactHookForm></ReactHookForm> */}
+      <ContactForm></ContactForm>
       <PortFooterBar></PortFooterBar>
     </div>
   );
