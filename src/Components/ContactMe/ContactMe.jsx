@@ -2,11 +2,16 @@ import React from "react";
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
+// TODO:
+// update form
+// validation
+// UI that says it was successful
+
 const ContactMe = () => {
     return (
         <div>
             <h1>Contact Me</h1>
-            <h3>I am open to work opportunities</h3>
+            <h4>I am open to work opportunities</h4>
             <Form>
                 {/* Name */}
                 {/* Phone */}

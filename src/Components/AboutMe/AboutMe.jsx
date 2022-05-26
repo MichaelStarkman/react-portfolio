@@ -4,7 +4,6 @@ const AboutMe = () => {
     return (
         <div className="about-me-container">
             <div className="about-me-title">
-                <hr />
                 <h1>About Me</h1>    
             </div>
             <div className="about-me-brand-statement">
