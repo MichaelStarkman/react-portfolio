@@ -6,7 +6,7 @@ const SocialIcons = () => {
         <div className="social-icon-container">
             <div className="linkedin-icon">
             <a href="https://www.linkedin.com/in/michaelstarkman/" target="_blank" rel="noreferrer">
-                    <img src="https://flyclipart.com/thumb2/linkedin-ui-flat-set-of-icons-icons-for-free-930862.png" alt="LinkedIn" width="50vw" height="50vw" />
+                    <img src="https://i.imgur.com/tUxbDbw.png" alt="LinkedIn" width="50vw" height="50vw" />
                 </a>
             </div>
             <div className="github-icon">
@@ -16,7 +16,7 @@ const SocialIcons = () => {
             </div>
             <div className="gmail">
                 <a href="mailto: michaelstarkman@gmail.com" target="_blank" rel="noreferrer">
-                    <img src="https://image.similarpng.com/thumbnail/2020/12/Gmail-logo-design-on-transparent-background-PNG.png" alt="Gmail" width="50vw" height="50vw" />
+                    <img src="https://i.imgur.com/2drZltB.png" alt="Gmail" width="50vw" height="50vw" />
                 </a>
             </div>
         </div>
