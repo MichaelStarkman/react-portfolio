@@ -11,7 +11,7 @@ const Skills = () => {
                 <p className="skills-group-title">Languages: </p><p>JavaScript, Python, HTML, CSS</p>
                 <p className="skills-group-title">Libraries: </p><p>React, Node.js, Django, Express</p>
                 <p className="skills-group-title">Databases: </p><p>Mongoose, MongoDB, PostgresSQL</p>
-                <p className="skills-group-title">Other: </p><p>RESTful Routing JSON, Github, VSCode, Stack Overflow</p>
+                <p className="skills-group-title">Other: </p><p>RESTful Routing, JSON APIs, Stack Overflow</p>
             </div>
         </div>
     )
