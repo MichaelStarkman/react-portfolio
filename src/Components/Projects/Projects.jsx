@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button";
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
 
+// TODO: Add animation to project photos in desktop view
+
 const Projects = () => {
     return (
         <section className="projects-container">

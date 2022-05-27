@@ -1,11 +1,11 @@
+import * as React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import HomeScreen from './Components/HomeScreen/HomeScreen';
 import PortNavBar from './Components/PortNavBar/PortNavBar';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import SocialIcons from './Components/SocialIcons/SocialIcons';
 import Skills from './Components/Skills/Skills';
-// import ContactMe from './Components/ContactMe/ContactMe';
-// import ReactHookForm from './Components/ContactForm/ContactForm';
 import ContactForm from './Components/ContactForm/ContactForm';
 import PortFooterBar from './Components/PortFooterBar/PortFooterBar'
 
