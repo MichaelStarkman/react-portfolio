@@ -1,6 +1,7 @@
 import React from "react";
 import TypeWriterEffect from 'react-typewriter-effect';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
+import ResumeButton from "../ResumeButton/ResumeButton";
 // import resume from '../../../src/michael-starkman-resume.pdf';
 // import { Document, Page, pdfjs } from 'react-pdf';
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js${pdfjs.version}/pdf.worker.js`
@@ -38,9 +39,7 @@ const HomeScreen = () => {
                 />
             </div>
             <br />
-           
-            
-            
+           <ResumeButton></ResumeButton>
             <hr />    
         </div>
     )
