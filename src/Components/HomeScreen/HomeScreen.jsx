@@ -40,6 +40,7 @@ const HomeScreen = () => {
             </div>
             <br />
            <ResumeButton></ResumeButton>
+           <button>Let's Talk!</button>
             <hr />    
         </div>
     )

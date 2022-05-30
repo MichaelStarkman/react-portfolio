@@ -6,7 +6,7 @@ const ResumeButton = () => {
     return (
         <div>
             <Button href={pdf} target="_blank" rel="noreferrer">
-                    Download Pdf
+                    Download CV
             </Button>
         </div>
     )

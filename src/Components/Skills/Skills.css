@@ -1,0 +1,9 @@
+.skills-container {
+    background-image: linear-gradient(90deg, #2A4B6E, #7196C2);
+    color: whitesmoke;
+}
+.skills-group-title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+}
