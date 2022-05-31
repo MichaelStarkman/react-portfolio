@@ -7,3 +7,12 @@
     justify-content: flex-start;
     padding: 2%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
+.skills-title {
+    font-family: 'Mitr', sans-serif;
+    padding: 2%;
+    color: whitesmoke;
+    font-size: 10vw;
+    display: grid;
+    justify-items: start;
+}

@@ -2,6 +2,7 @@
     background:  center no-repeat rgba(0, 0, 0, 0.25)url(https://i.imgur.com/YbEtk6X.jpg);
     position: relative;
     background-size: cover;
+    max-width: 100%;
     background-position: center center;
     height: 1000px;
     background-blend-mode: darken;

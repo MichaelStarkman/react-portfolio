@@ -11,7 +11,7 @@ const HomeScreen = () => {
             <div className="home-container">
                 <div className="home-text-container">
                     <h3>Hello, my name is</h3>
-                    <h1 className="">Michael</h1>
+                    <h1 className="home-name-text">Michael</h1>
                     <h1 className="home-name-text">Starkman.</h1>
                     <h3>I am a</h3>
                 </div>

@@ -11,7 +11,8 @@ import './Projects.css'
 const Projects = () => {
     return (
         <section className="projects-container">
-            <h1>Projects</h1>
+            <h1 className="project-title">Projects</h1>
+            <hr />
             {/* Let's Dish! */}
             <div className="project-one-container">
                 <Card style={{ width: '100%' }}>
