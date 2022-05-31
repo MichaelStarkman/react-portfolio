@@ -10,7 +10,7 @@ import './HomeScreen.css'
 
 const HomeScreen = () => {
     return (
-        <div>
+        <div className="home-container">
             <h3>Hello, I am</h3>
             <h1>Michael Starkman</h1>
             {/* Insert Typist here */}
@@ -39,8 +39,10 @@ const HomeScreen = () => {
                 />
             </div>
             <br />
-           <ResumeButton></ResumeButton>
-           <button>Let's Talk!</button>
+            <div className="home-button-container">
+                <ResumeButton></ResumeButton>
+                <button>Let's Talk!</button>
+            </div>
             <hr />    
         </div>
     )
