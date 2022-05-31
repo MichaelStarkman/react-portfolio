@@ -1,6 +1,8 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
 import Button from "react-bootstrap/Button";
+
+import './Projects.css'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
 

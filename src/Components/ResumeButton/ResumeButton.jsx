@@ -5,7 +5,11 @@ import pdf from '../../michael-starkman-resume.pdf'
 const ResumeButton = () => {
     return (
         <div>
-            <Button href={pdf} target="_blank" rel="noreferrer">
+            <Button 
+                variant="outline-primary" 
+                href={pdf} 
+                target="_blank" 
+                rel="noreferrer">
                     Download CV
             </Button>
         </div>

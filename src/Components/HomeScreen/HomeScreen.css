@@ -1,9 +1,36 @@
-.home-container {
-    padding-top: 20%;
+.home-main-photo {
+    background:  center no-repeat rgba(0, 0, 0, 0.25)url(https://i.imgur.com/YbEtk6X.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    height: 1000px;
+    background-blend-mode: darken;
 }
+.home-container {
+    padding-top: 66%;
+}
+.home-name-text {
+    font-size: 13vw;
+}
+.home-text-container {
+    display: grid;
+    justify-items: start;
+    color: whitesmoke;
+    padding: 1em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap');
 .typewriter-container {
     display: flex;
     gap: 3px;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    color: red;
+}
+.react-typewriter-text {
+    font-size: 11vw;
+}
+.home-button-container {
+    display: flex;
+    justify-content: space-evenly;
 }
