@@ -7,6 +7,7 @@ import './Projects.css'
 // import Col from 'react-bootstrap/Col'
 
 // TODO: Add animation to project photos in desktop view
+// TODO: Update images to show it is mobile responsive with images on phones, tablets, and desktop for each project
 
 const Projects = () => {
     return (
@@ -19,7 +20,7 @@ const Projects = () => {
                     <Card.Img variant="top" src="https://i.imgur.com/9rgRB7q.png" />
                     <Card.Body>
                         <Card.Title>Let's Dish</Card.Title>
-                        <Card.Text>
+                        <Card.Text className="card-text">
                         Full-stack MERN (MongoDB, Express, REACT, and Node.js) application allowing users to create, edit and delete their favorites dishes found at local eateries.
                         </Card.Text>
                         <div className="card-button-container">
@@ -33,6 +34,7 @@ const Projects = () => {
             {/* Ticket Trader */}
             <div className="project-two-container">
                 <Card style={{ width: '100%' }}>
+                    
                     <Card.Img variant="top" src="https://i.imgur.com/s1wmha2.png" />
                     <Card.Body>
                         <Card.Title>Ticket Trader</Card.Title>
