@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
+    gap: 3vw;
+}
+p {
+    margin: 1em 0em;
+}

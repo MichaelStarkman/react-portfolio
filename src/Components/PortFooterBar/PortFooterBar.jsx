@@ -1,28 +1,13 @@
 import React from 'react';
-// import { useState } from "react";
-import { 
-    Container,
-    Navbar
-} from 'react-bootstrap';
+import './PortFooterBar.css'
 
 const PortFooterBar = () => {
     return (
-        <>
-            <div>
-                <Navbar 
-                className="footer-bar" 
-                bg="light" 
-                variant="light"
-                >
-                    <Container>
-                        <Navbar.Text>
-                            © Michael Starkman 2022
-                        </Navbar.Text>
-                    </Container>
-                </Navbar>
-            </div>
-        </>
+            <footer>
+                <p>© 2022 All Rights Reserved</p>
+                <p>Designed by Michael Starkman</p>
+            </footer>
+        
     )
 }
-
 export default PortFooterBar;
