@@ -3,7 +3,8 @@ footer {
     font-size: 3vw;
     justify-content: center;
     gap: 3vw;
+    padding-top: 2%;
 }
 p {
-    margin: 1em 0em;
+    margin: 1.5em 0em;
 }

@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
 .contact-container {
-    font-family: 'M PLUS 1p', sans-serif;
+    background-image: linear-gradient(0deg, #a0c5c9, #166b90);
     padding: 5%;
-    color: black
 }
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
 .contact-title {
@@ -10,4 +9,20 @@
     padding: 1% 3%;
     display: flex;
     font-size: 10vw;
+    color: whitesmoke
+
+}
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+.contact-text {
+    font-family: 'M PLUS 1p', sans-serif;
+    color: whitesmoke;
+    font-size: 1.1em;
+    
+}
+.contact-hr {
+    color: whitesmoke;
+}
+
+.input {
+    width: 75%;
 }
