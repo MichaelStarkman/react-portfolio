@@ -1,5 +1,6 @@
 .skills-container {
     background-image: linear-gradient(90deg, #2A4B6E, #7196C2);
+    padding: 5%;
     color: whitesmoke;
 }
 .skills-group-title {

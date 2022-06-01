@@ -1,6 +1,8 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Button } from 'react-bootstrap';
+import SocialIcons from '../SocialIcons/SocialIcons'
+import './ContactForm.css'
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("mpzbknnw");
@@ -18,8 +20,10 @@ const ContactForm = () => {
     
     <div className='contact-container'>
       <div>
-        <h1>Contact Me</h1>
-        <p>I am open to work opportunities</p>
+        <h1 className='contact-title'>Contact</h1>
+        <p>I enjoy interacting with people from all facets of life. Let's link up over Zoom, a phone call, or coffee if you are in the Denver area.</p>
+        <SocialIcons></SocialIcons>
+        <p>Send me a message:</p>
     </div>
       <div className='form-container'>
         <form onSubmit={handleSubmit}>
@@ -51,8 +55,9 @@ const ContactForm = () => {
           errors={state.errors}
         />
         <br />
+        {/* UNSURE WHETHER TO ADD PHONE TO CONTACT FORM */}
         {/* phone */}
-        <input
+        {/* <input
           id="phone"
           type="phone" 
           name="phone"
@@ -63,7 +68,7 @@ const ContactForm = () => {
           field="phone"
           errors={state.errors}
         />
-        <br />
+        <br /> */}
         {/* subject */}
         <input
           id="subject"
@@ -89,8 +94,9 @@ const ContactForm = () => {
           errors={state.errors}
         />
         <br />
-        {/* possible preferred contact drop down text/phone/email */}
+        {/* TODO: possible preferred contact drop down text/phone/email */}
           <Button 
+          variant='dark'
           type="submit" 
           disabled={state.submitting} 
           // onClick={() => setSmShow(true)} 

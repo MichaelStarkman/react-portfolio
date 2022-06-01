@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+.contact-container {
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 5%;
+    color: black
+}
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
+.contact-title {
+    font-family: 'Mitr', sans-serif;
+    padding: 1% 3%;
+    display: flex;
+    font-size: 10vw;
+}
