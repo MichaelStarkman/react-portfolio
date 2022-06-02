@@ -13,7 +13,16 @@ const PortNavBar = () => {
                 <Navbar 
                 bg="light" expand="lg" fixed="top">
                     <Container>
-                        <Navbar.Brand href="#home">Michael Starkman</Navbar.Brand>
+                        <Navbar.Brand href="#home">
+                            <img
+                                alt=""
+                                src="https://i.imgur.com/tkxn0sv.png"
+                                width="30"
+                                height="30"
+                                className="d-inline-block align-top"
+                            />{' '}
+                        Michael Starkman
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

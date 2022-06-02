@@ -102,7 +102,7 @@ const ContactForm = () => {
           field="message"
           errors={state.errors}
         />
-        <br /><br />
+        <br />
         {/* TODO: possible preferred contact drop down text/phone/email */}
           <Button 
           variant='outline-dark'
