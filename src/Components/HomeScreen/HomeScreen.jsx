@@ -3,6 +3,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import ResumeButton from "../ResumeButton/ResumeButton";
 import Button from "react-bootstrap/Button";
 
+
 import './HomeScreen.css'
 
 const HomeScreen = () => {

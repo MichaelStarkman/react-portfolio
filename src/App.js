@@ -6,6 +6,7 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import ContactForm from './Components/ContactForm/ContactForm';
 import PortFooterBar from './Components/PortFooterBar/PortFooterBar'
+import ScrollToTop from "./Components/Scroll/ScrollToTop";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <PortNavBar></PortNavBar>
       <HomeScreen></HomeScreen>
       <Projects></Projects>
