@@ -4,19 +4,19 @@ import './SocialIcons.css'
 const SocialIcons = () => {
     return (
         <div className="social-icon-container">
-            <div className="linkedin-icon">
+            <div className="social-icon">
             <a href="https://www.linkedin.com/in/michaelstarkman/" target="_blank" rel="noreferrer">
-                    <img src="https://i.imgur.com/tUxbDbw.png" alt="LinkedIn" width="50vw" height="50vw" />
+                    <img className="social-icon" src="https://i.imgur.com/tUxbDbw.png" alt="LinkedIn"  />
                 </a>
             </div>
-            <div className="github-icon">
+            <div className="social-icon">
                 <a href="https://github.com/MichaelStarkman" target="_blank" rel="noreferrer">
-                    <img src="https://i.imgur.com/CILViGk.png" alt="GitHub" width="50vw" height="50vw" />
+                    <img src="https://i.imgur.com/CH3X7YX.png" alt="GitHub" className="social-icon" />
                 </a>
             </div>
-            <div className="gmail">
+            <div className="social-icon">
                 <a href="mailto: michaelstarkman@gmail.com" target="_blank" rel="noreferrer">
-                    <img src="https://i.imgur.com/2drZltB.png" alt="Gmail" width="50vw" height="50vw" />
+                    <img src="https://i.imgur.com/2drZltB.png" alt="Gmail" className="social-icon" />
                 </a>
             </div>
         </div>

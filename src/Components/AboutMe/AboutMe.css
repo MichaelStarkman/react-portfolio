@@ -4,6 +4,12 @@
     padding: 5%;
     color: black
 }
+@media (min-width: 768px){
+    .about-me-container {
+        padding: 0%;
+        padding-bottom: 2%
+    }
+}
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
 .about-me-title-text {
     font-family: 'Mitr', sans-serif;
@@ -11,6 +17,15 @@
     display: flex;
     font-size: 10vw;
 }
-/* .about-me-title {
-    display: flex
-} */
+@media (min-width: 768px){
+    .about-me-title-text {
+        font-size: 5vw;
+    }    
+}
+@media (min-width: 768px){
+    .about-me-brand-statement {
+        font-size: 1.5vw;
+        width: 75%;
+        padding: 5% 0% 5% 20%;
+    }
+}

@@ -11,7 +11,7 @@ const Skills = () => {
             <div className="skills-content">
             <hr />
                 <section>
-                    <h4>Languages: </h4>
+                    <h4 className="skills-group-title">Languages: </h4>
                     <p>...</p>
                     <div className="skills-icon-container">
                         <div>
@@ -35,7 +35,7 @@ const Skills = () => {
                 </section>
                 <hr />
                 <section>
-                    <h4>Libraries: </h4>
+                    <h4 className="skills-group-title">Libraries: </h4>
                     <p>...</p>
                     <div className="skills-icon-container">
                         <div>
@@ -59,7 +59,7 @@ const Skills = () => {
                 </section>
                 <hr />
                 <section>
-                    <h4>Databases: </h4>                
+                    <h4 className="skills-group-title">Databases: </h4>                
                     <p>...</p>
                     <div className="skills-icon-container">
                         <div>

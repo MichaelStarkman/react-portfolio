@@ -8,3 +8,10 @@ footer {
 p {
     margin: 1.5em 0em;
 }
+@media (min-width: 768px) {
+    footer {
+        font-size: 18px;
+        gap: 30vw;
+        padding-top: 1%;
+    }
+}

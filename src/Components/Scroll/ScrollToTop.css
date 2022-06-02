@@ -3,9 +3,15 @@
   }
   .icon-position{
     position: fixed;
-    bottom: 40px;
-    right: 25px;
+    bottom: 55px;
+    right: 10px;
     z-index: 20;
+  }
+  @media (min-width: 768px){
+    .icon-position {
+      bottom: 80px;
+      right:20px
+    }
   }
   .icon-style{
     background-color: #551B54;
@@ -17,25 +23,33 @@
     cursor: pointer;
     animation: movebtn 3s ease-in-out infinite;
     transition: all .5s ease-in-out;
+    opacity: 0.6;
+  }
+  @media (min-width: 768px){
+    .icon-style {
+      height: 66px;
+      width: 66px;
+    }
   }
   .icon-style:hover{
     animation: none;
     background: #fff;
     color: #551B54;
     border: 2px solid #551B54;
+    opacity: 0.5;
   }
   @keyframes movebtn {
     0%{
       transform: translateY(0px);
     }
     25%{
-      transform: translateY(20px);
+      transform: translateY(15px);
     }
     50%{
       transform: translateY(0px);
     }
     75%{
-      transform: translateY(-20px);
+      transform: translateY(15px);
     }
     100%{
       transform: translateY(0px);

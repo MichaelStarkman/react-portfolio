@@ -10,7 +10,11 @@ const ContactForm = () => {
       return (
           <div className='thank-you-container'>
             {/* TODO: edit Thank you */}
-            <p>Thank you for visiting!</p>
+            <h1 className='contact-title'>Contact</h1>
+            <hr className='contact-hr' />
+            <p className='contact-text'>I enjoy interacting with people from all facets of life. Let's link up over Zoom, a phone call, or coffee if you are in the Denver area.</p>
+            <SocialIcons></SocialIcons>
+            <p className='thank-you-response'>Thank you for visiting!</p>
           </div>
         
       )
@@ -22,10 +26,12 @@ const ContactForm = () => {
       <div>
         <h1 className='contact-title'>Contact</h1>
         <hr className='contact-hr' />
-        <p className='contact-text'>I enjoy interacting with people from all facets of life. Let's link up over Zoom, a phone call, or coffee if you are in the Denver area.</p>
+        <section className='contact-text-container'>
+          <p className='contact-text'>I enjoy interacting with people from all facets of life. Let's link up over Zoom, a phone call, or coffee if you are in the Denver area.</p>
+        </section>
         <SocialIcons></SocialIcons>
         <br />
-        <p className='contact-text'>Send me a message:</p>
+        <p className='form-text'>Send me a message:</p>
     </div>
       <div className='form-container'>
         <form 
@@ -61,20 +67,6 @@ const ContactForm = () => {
           errors={state.errors}
         />
         <br />
-        {/* UNSURE WHETHER TO ADD PHONE TO CONTACT FORM */}
-        {/* phone */}
-        {/* <input
-          id="phone"
-          type="phone" 
-          name="phone"
-          placeholder='Phone Number'
-        />
-        <ValidationError 
-          prefix="Phone" 
-          field="phone"
-          errors={state.errors}
-        />
-        <br /> */}
         {/* subject */}
         <input
           className="input"
@@ -86,9 +78,6 @@ const ContactForm = () => {
         />
         <br />
         {/* message */}
-        {/* <label htmlFor="">
-          Message: 
-        </label> */}
         <textarea
           className="w-75 mb-4"
           rows={5}

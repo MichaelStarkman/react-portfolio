@@ -3,6 +3,12 @@
     background-image: linear-gradient(0deg, #a0c5c9, #166b90);
     padding: 5%;
 }
+@media (min-width: 768px){
+    .contact-container {
+        padding: 0%;
+        padding-bottom: 2%
+    }
+}
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
 .contact-title {
     font-family: 'Mitr', sans-serif;
@@ -10,14 +16,41 @@
     display: flex;
     font-size: 10vw;
     color: whitesmoke
-
+}
+@media (min-width: 768px){
+    .contact-title {
+        font-size: 5vw;
+    }    
 }
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
 .contact-text {
     font-family: 'M PLUS 1p', sans-serif;
     color: whitesmoke;
     font-size: 1.1em;
-    
+
+}
+@media (min-width: 768px){
+    .contact-text {
+        font-size: 1.5vw;
+        width: 75%;
+    }    
+}
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+.form-text {
+    font-family: 'M PLUS 1p', sans-serif;
+    color: whitesmoke;
+    font-size: 1.1em;
+
+}
+@media (min-width: 768px){
+    .form-text {
+        font-size: 1.5vw;
+    }    
+}
+@media (min-width: 768px) {
+    .contact-text-container {
+        padding-left: 20%;
+    }
 }
 .contact-hr {
     color: whitesmoke;
