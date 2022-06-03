@@ -2,6 +2,12 @@
     background-image: linear-gradient(270deg, #04ADBF, #013F58);
     padding: 5%;
 }
+@media (min-width: 768px){
+    .projects-container {
+        padding: 0%;
+        padding-bottom: 2%
+    }
+}
 @media (min-width:768px){
     
 }
@@ -14,12 +20,21 @@
     display: grid;
     justify-items: start;
 }
+@media (min-width: 768px){
+    .project-title {
+        font-size: 5vw;
+    }    
+}
 .card-button-container {
     display: flex;
     justify-content: space-around;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
-.card-text {
-    font-family: 'M PLUS 1p', sans-serif;
-    color: black;
-} */
+@media (min-width:768px){
+    .project-card-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+div.card {
+    height: 510px;
+}
