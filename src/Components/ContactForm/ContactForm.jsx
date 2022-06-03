@@ -32,7 +32,7 @@ const ContactForm = () => {
         <SocialIcons></SocialIcons>
         <br />
         <div className="form-text">
-          <p
+          <p className='form-message'
           >Send me a message:</p>
         </div>
     </div>

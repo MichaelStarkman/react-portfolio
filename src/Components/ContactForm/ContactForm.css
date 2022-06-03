@@ -37,6 +37,7 @@ p {
     .contact-text {
         font-size: 1.5vw;
         width: 75%;
+        padding: 3% 5%;
     }    
 }
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
@@ -64,4 +65,8 @@ p {
 
 .input {
     width: 75%;
+}
+.form-message {
+    font-size: 1.3em;
+    color: whitesmoke;
 }

@@ -16,19 +16,19 @@ const Skills = () => {
                     <div className="skills-icon-container">
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/oKEBASu.png" alt="javascript" />
-                            <p>JavaScript</p>
+                            <p className="skill">JavaScript</p>
                         </div>
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/E86xL0p.png" alt="python" />
-                            <p>Python</p>
+                            <p className="skill">Python</p>
                         </div>
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/ACD46Jd.png" alt="html" />
-                            <p>HTML5</p>
+                            <p className="skill">HTML5</p>
                         </div>
                         <div className="icon-with-text">
                             <img className="icon-image" src="https://i.imgur.com/fVuo78h.png" alt="css-3" />
-                            <p>CSS</p>
+                            <p className="skill">CSS</p>
                         </div>
 
                     </div>
@@ -40,19 +40,19 @@ const Skills = () => {
                     <div className="skills-icon-container">
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/TwtF5Kz.png" alt="react" />
-                            <p>React</p>
+                            <p className="skill">React</p>
                         </div>
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/CaIQ8An.png" alt="node-js" />
-                            <p>Node.js</p>
+                            <p className="skill">Node.js</p>
                         </div>
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/vKQoxuD.png" alt="Django" />
-                            <p>Django</p>
+                            <p className="skill">Django</p>
                         </div>
                         <div className="icon-with-text">
                             <img className="icon-image" src="https://i.imgur.com/feBtnJW.png" alt="Express" />
-                            <p>Express</p>
+                            <p className="skill">Express</p>
                         </div>
 
                     </div>
@@ -64,15 +64,15 @@ const Skills = () => {
                     <div className="skills-icon-container">
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/rdJefM2.png" alt="Mongoose" />
-                            <p>Mongoose</p>
+                            <p className="skill">Mongoose</p>
                         </div>
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/M2A87Cd.png" alt="MongoDB" />
-                            <p>MongoDB</p>
+                            <p className="skill">MongoDB</p>
                         </div>
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/a02OFbi.png" alt="PostgreSQL" />
-                            <p>PostgreSQL</p>
+                            <p className="skill">PostgreSQL</p>
                         </div>
                     </div>
                 </section>

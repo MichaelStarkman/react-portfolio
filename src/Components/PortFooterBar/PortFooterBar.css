@@ -10,7 +10,7 @@ p {
 }
 @media (min-width: 768px) {
     footer {
-        font-size: 18px;
+        font-size: 14px;
         gap: 30vw;
         padding-top: 1%;
     }

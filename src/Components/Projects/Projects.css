@@ -35,6 +35,11 @@
         grid-template-columns: auto auto auto;
     }
 }
-div.card {
-    height: 510px;
+@media (min-width:768px){
+    div.card {
+        height: 510px;
+    }
+}
+.card-text {
+    font-size: 1.1em;
 }
