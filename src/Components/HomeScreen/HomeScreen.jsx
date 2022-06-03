@@ -8,13 +8,13 @@ import './HomeScreen.css'
 
 const HomeScreen = () => {
     return (
-        <section className="home-main-photo">
+        <section className="home-main-photo h-100vh">
             <div className="home-container">
                 <div className="home-text-container">
-                    <h3>Hello, my name is</h3>
+                    <h3 className="home-subtext">Hello, my name is</h3>
                     <h1 className="home-name-text">Michael</h1>
                     <h1 className="home-name-text">Starkman.</h1>
-                    <h3>I am a</h3>
+                    <h3 className="home-subtext">I am a</h3>
                 </div>
                 <div className="typewriter-container">
                     <br />

@@ -1,23 +1,51 @@
 .home-main-photo {
     background:  center no-repeat rgba(0, 0, 0, 0.25)url(https://i.imgur.com/YbEtk6X.jpg);
     position: relative;
-    background-size: cover;
+    background-size: 100% 100%;
     max-width: 100%;
-    background-position: center center;
-    height: 1000px;
+    background-position: center;
+    height: 900px;
     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
 }
+/* @media (min-width: 768px) {
+    .home-main-photo {
+        height: 1000px;
+    } 
+} */
 .home-container {
-    padding-top: 66%;
+    padding-top: 50%;
+}
+@media (min-width:768px){
+    .home-container {
+        padding-top: 2%;
+    }
 }
 .home-name-text {
-    font-size: 13vw;
+    font-size: 10vw;
 }
+@media (min-width: 768px){
+    .home-name-text {
+        font-size: 5vw;
+    }}
 .home-text-container {
     display: grid;
     justify-items: start;
     color: whitesmoke;
     padding: 1em;
+}
+@media (min-width: 768px){
+    .home-text-container {
+        padding: 5em 5em 0em 7em;
+    }
+}
+@media (min-width: 768px){
+    .home-subtext {
+        font-size: 18px;
+    }
 }
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap');
 .typewriter-container {
@@ -29,7 +57,12 @@
     color: red;
 }
 .react-typewriter-text {
-    font-size: 11vw;
+    font-size: 12vw;
+}
+@media (min-width: 768px){
+    .react-typewriter-text {
+        font-size:7vw;
+    }
 }
 .home-button-container {
     display: flex;

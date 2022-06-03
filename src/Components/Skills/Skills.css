@@ -1,6 +1,7 @@
 @media (min-width:768px) {
     p {
         font-size: 24px;
+        margin: 0%;
     }
 }
 .skills-container {
@@ -42,13 +43,13 @@
 }
 @media (min-width:768px){
     .icon-image{
-        height: 85px;
-        width: 85px;
+        height: 100px;
+        width: 100px;
     }
 }
 @media (min-width:768px) {
     .skills-group-title {
-        font-size: 30px;
+        font-size: 36px;
         text-decoration: underline;
 
     }
