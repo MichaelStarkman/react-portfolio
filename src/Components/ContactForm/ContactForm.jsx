@@ -12,9 +12,12 @@ const ContactForm = () => {
             {/* TODO: edit Thank you */}
             <h1 className='contact-title'>Contact</h1>
             <hr className='contact-hr' />
-            <p className='contact-text'>I enjoy interacting with people from all facets of life. Let's link up over Zoom, a phone call, or coffee if you are in the Denver area.</p>
+            <section className='thank-you-text-container'>
+              <p className='thank-you-text'>I enjoy interacting with people from all facets of life. Let's link up over Zoom, a phone call, or coffee if you are in the Denver area.</p>
+              <p className='thank-you-text'>Thank you for visiting!</p>
+            </section>
+            <br />
             <SocialIcons></SocialIcons>
-            <p className='thank-you-response'>Thank you for visiting!</p>
           </div>
         
       )
