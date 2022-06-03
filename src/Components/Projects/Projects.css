@@ -2,6 +2,9 @@
     background-image: linear-gradient(270deg, #04ADBF, #013F58);
     padding: 5%;
 }
+@media (min-width:768px){
+    
+}
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
 .project-title {
     font-family: 'Mitr', sans-serif;

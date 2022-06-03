@@ -12,7 +12,7 @@ const Skills = () => {
             <hr />
                 <section>
                     <h4 className="skills-group-title">Languages: </h4>
-                    <p>...</p>
+                    <p className="dots">...</p>
                     <div className="skills-icon-container">
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/oKEBASu.png" alt="javascript" />
@@ -36,7 +36,7 @@ const Skills = () => {
                 <hr />
                 <section>
                     <h4 className="skills-group-title">Libraries: </h4>
-                    <p>...</p>
+                    <p className="dots">...</p>
                     <div className="skills-icon-container">
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/TwtF5Kz.png" alt="react" />
@@ -60,7 +60,7 @@ const Skills = () => {
                 <hr />
                 <section>
                     <h4 className="skills-group-title">Databases: </h4>                
-                    <p>...</p>
+                    <p className="dots">...</p>
                     <div className="skills-icon-container">
                         <div>
                             <img className="icon-image" src="https://i.imgur.com/rdJefM2.png" alt="Mongoose" />

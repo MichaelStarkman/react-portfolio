@@ -31,7 +31,10 @@ const ContactForm = () => {
         </section>
         <SocialIcons></SocialIcons>
         <br />
-        <p className='form-text'>Send me a message:</p>
+        <div className="form-text">
+          <p
+          >Send me a message:</p>
+        </div>
     </div>
       <div className='form-container'>
         <form 
@@ -51,7 +54,7 @@ const ContactForm = () => {
           field="name"
           errors={state.errors}
         />
-        <br />
+        <br /> <br />
         {/* email */}
         <input
           className="input"
@@ -66,7 +69,7 @@ const ContactForm = () => {
           field="email"
           errors={state.errors}
         />
-        <br />
+        <br /><br />
         {/* subject */}
         <input
           className="input"
@@ -76,7 +79,7 @@ const ContactForm = () => {
           required
           placeholder='Subject'
         />
-        <br />
+        <br /><br/>
         {/* message */}
         <textarea
           className="w-75 mb-4"
