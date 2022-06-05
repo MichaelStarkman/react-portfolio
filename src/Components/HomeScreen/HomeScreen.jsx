@@ -5,6 +5,13 @@ import Button from "react-bootstrap/Button";
 
 
 import './HomeScreen.css'
+// import ScrollToBottom from "../Scroll/ScrollToBottom";
+const goToBottom = () => {
+    window.scrollTo({
+        top: 10000,
+        behavior: 'smooth',
+    });
+};
 
 const HomeScreen = () => {
     return (
@@ -37,7 +44,9 @@ const HomeScreen = () => {
                 <br /><br /><br />
                 <div className="home-button-container">
                     <ResumeButton></ResumeButton>
+                    {/* <ScrollToBottom /> */}
                     <Button
+                        onClick={goToBottom}
                         variant="outline-primary"
                         // size="lg"
                     > Let's Talk! </Button>
