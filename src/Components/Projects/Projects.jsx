@@ -9,9 +9,7 @@ import './Projects.css'
 
 const Projects = () => {
     return (
-        <section 
-            className="projects-container" id='portfolio'
-        >
+        <div className="projects-container" id='portfolio'>
             <h1 className="project-title">Projects</h1>
             <hr />
             {/* Let's Dish! */}
@@ -68,7 +66,7 @@ const Projects = () => {
                     </Card>
                 </div>
             </div>
-        </section>
+        </div>
     ) 
 }
 

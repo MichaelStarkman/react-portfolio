@@ -13,7 +13,7 @@ const goToBottom = () => {
 
 const HomeScreen = () => {
     return (
-        <section id='hero' className="home-main-photo h-100vh">
+        <div id='hero' className="home-main-photo h-100vh">
             <div className="home-container">
                 <div className="home-text-container">
                     <h3 className="home-subtext">Hello, my name is</h3>
@@ -50,7 +50,7 @@ const HomeScreen = () => {
                     > Let's Talk! </Button>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 export default HomeScreen;
