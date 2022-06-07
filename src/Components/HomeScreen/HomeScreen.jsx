@@ -3,19 +3,17 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import ResumeButton from "../ResumeButton/ResumeButton";
 import Button from "react-bootstrap/Button";
 
-
 import './HomeScreen.css'
-// import ScrollToBottom from "../Scroll/ScrollToBottom";
 const goToBottom = () => {
     window.scrollTo({
-        top: 10000,
+        top: document.documentElement.scrollHeight,
         behavior: 'smooth',
     });
 };
 
 const HomeScreen = () => {
     return (
-        <section className="home-main-photo h-100vh">
+        <section id='hero' className="home-main-photo h-100vh">
             <div className="home-container">
                 <div className="home-text-container">
                     <h3 className="home-subtext">Hello, my name is</h3>

@@ -3,15 +3,15 @@ import Card from 'react-bootstrap/Card'
 import Button from "react-bootstrap/Button";
 
 import './Projects.css'
-// import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
 
 // TODO: Add animation to project photos in desktop view
 // TODO: Update images to show it is mobile responsive with images on phones, tablets, and desktop for each project
 
 const Projects = () => {
     return (
-        <section className="projects-container">
+        <section 
+            className="projects-container" id='portfolio'
+        >
             <h1 className="project-title">Projects</h1>
             <hr />
             {/* Let's Dish! */}

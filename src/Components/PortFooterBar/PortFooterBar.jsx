@@ -4,8 +4,8 @@ import './PortFooterBar.css'
 const PortFooterBar = () => {
     return (
             <footer>
-                <p>© 2022 All Rights Reserved</p>
-                <p>Designed by Michael Starkman</p>
+                <p className='footer-text'>© 2022 All Rights Reserved</p>
+                <p className='footer-text'>Designed by Michael Starkman</p>
             </footer>
         
     )

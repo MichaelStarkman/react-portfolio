@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -6,13 +6,19 @@ import pdf from '../../michael-starkman-resume.pdf';
 
 
 const PortNavBar = () => {
+
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
+    const closeMenu = () => setClick(false)
+    
     return (
         <>
             <div className="NavBar">
                 <Navbar 
                 bg="light" expand="lg" fixed="top">
                     <Container>
-                        <Navbar.Brand href="#home">
+                        <Navbar.Brand to="hero">
                             <img
                                 alt=""
                                 src="https://i.imgur.com/tkxn0sv.png"
@@ -26,22 +32,20 @@ const PortNavBar = () => {
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link 
-                                href="#home">
-                                Home
+                                to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home
                             </Nav.Link>
                             <Nav.Link 
-                                href="#link">
+                                className="link" to="portfolio" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>
                                 Portfolio
                             </Nav.Link>
                             <Nav.Link 
-                                href="/about"
+                                href="/About"
                                 >About Me
                             </Nav.Link>
                             <Nav.Link 
-                                href="#link">
+                                href="/Contact">
                                 Contact
                             </Nav.Link>  
-                            {/* might make it into a button on home page */}
                             <Nav.Link 
                                 href={pdf}  
                                 target="_blank" 
