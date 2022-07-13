@@ -27,6 +27,7 @@
 .header .navbar img {
     width: 75px;
     height: auto;
+    cursor: pointer;
 }
 
 .header .nav-menu {
@@ -46,6 +47,7 @@
 .header .nav-item a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid lightgreen;
+    cursor: pointer;
 }
 
 .hamburger {
@@ -92,5 +94,6 @@
 
     .header .navbar img {
         width: 75px;
+        cursor: pointer;
     }
 }

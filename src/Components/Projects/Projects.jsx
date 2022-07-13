@@ -34,16 +34,16 @@ const Projects = () => {
                 <div className="project-container">
                     <Card style={{ width: '100%' }}>
                         
-                        <Card.Img variant="top" src="https://i.imgur.com/s1wmha2.png" />
+                        <Card.Img variant="top" src="https://i.imgur.com/H6C6tsN.png" />
                         <Card.Body>
-                            <Card.Title>Ticket Trader</Card.Title>
+                            <Card.Title>StarkChat</Card.Title>
                             <Card.Text>
                             React front-end that consumes a Django API allowing users to create, read, update, and delete tickets available to local events. 
                             </Card.Text>
                             <br />
                             <div className="card-button-container">
-                                <Button href="https://ticket-trader.herokuapp.com/" target="_blank" variant="success">Live Demo</Button>
-                                <Button href="https://github.com/MichaelStarkman/ticket-trader-front-end" target="_blank" variant="warning">GitHub</Button>
+                                <Button href="https://c-app.herokuapp.com/" target="_blank" variant="success">Live Demo</Button>
+                                <Button href="https://github.com/MichaelStarkman/chat-app-frontend" target="_blank" variant="warning">GitHub</Button>
                             </div>
                         </Card.Body>
                     </Card>
