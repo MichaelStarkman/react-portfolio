@@ -35,7 +35,7 @@ const Skills = () => {
                 </section>
                 <hr />
                 <section>
-                    <h4 className="skills-group-title">Libraries: </h4>
+                    <h4 className="skills-group-title">Libraries and Frameworks: </h4>
                     <p className="dots">...</p>
                     <div className="skills-icon-container">
                         <div>

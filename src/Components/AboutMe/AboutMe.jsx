@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <hr />
             </div>
             <div className="about-me-brand-statement">
-                <p className="about-me-text">I am a Software Engineer with over a decade experience working in the Healthcare and SaaS industries. I am detail oriented with a demonstrated track record to meet project scope and deadlines. Proficient in a broad range of software design approaches and common UX patterns, I have the ability to communicate effectively with both technical and non-technical individuals to solve difficult software and UX problems.</p>
+                <p className="about-me-text">I am a Software Engineer with over a decade of experience working in the Healthcare and SaaS industries. I am detail oriented with a demonstrated track record to meet project scope and deadlines. Proficient in a broad range of software design approaches and common UX patterns, I have the ability to communicate effectively with both technical and non-technical individuals to solve difficult software and UX problems.</p>
             </div>
         </div>
     )

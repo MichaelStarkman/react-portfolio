@@ -30,7 +30,7 @@ const Projects = () => {
                     </Card>
                 </div>
                 <br />
-                {/* Ticket Trader */}
+                {/* StarkChat */}
                 <div className="project-container">
                     <Card style={{ width: '100%' }}>
                         
@@ -38,7 +38,7 @@ const Projects = () => {
                         <Card.Body>
                             <Card.Title>StarkChat</Card.Title>
                             <Card.Text>
-                            React front-end that consumes a Django API allowing users to create, read, update, and delete tickets available to local events. 
+                            Full-stack MERN (MongoDB, Express, REACT, and Node.js) messaging application that allows users to send and receive messages in real time with Socket.io and Redux.
                             </Card.Text>
                             <br />
                             <div className="card-button-container">
